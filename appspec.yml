@@ -17,6 +17,10 @@ permissions:
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies.sh
+<<<<<<< HEAD
+      runas: root
+=======
+>>>>>>> 037285c9b83fe02d292084c4e5dfbc72baef8110
     #- location: scripts/deregister_from_elb.sh
     - location: scripts/webserver-stop.sh
     - location: scripts/delete-old-index.sh
